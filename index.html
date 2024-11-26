@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream</title>
+    <script src="./lib/jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="icecream.css" />
+    <script src="icecream_info.js"></script>
+    <script src="icecream.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Naiya's Ice Cream Shop</h1>
+    <h3>Welcome to the Ice Cream Shop! Click on an Ice Cream to Read/Update/Delete!</h3>
+  </header>
+    
+    <p>Use the Create button to add your own Ice Cream!</p>
+    <button id="createIceCream">Create New Ice Cream</button>
+  
+  <nav>
+    <ul>
+      <li>
+        <button
+          id="cookiedough"
+          class="icecream"
+          style="background: url(./images/chocolate\ chip\ cookie\ dough.jpg); background-size: contain"
+        ></button>
+      </li>
+      <li>
+        <button
+          id="rockyroad"
+          class="icecream"
+          style="background: url(./images/rocky\ road.jpg); background-size: 76%; background-position: center"
+        ></button>
+      </li>
+      <li>
+        <button
+          id="butterpecan"
+          class="icecream"
+          style="background: url(./images/butter\ pecan.jpg); background-size: 73%; background-position: center"
+        ></button>
+      </li>
+      <li>
+        <button
+          id="strawberry"
+          class="icecream"
+          style="background: url(./images/strawberry.jpg); background-size: cover; background-position: center"
+        ></button>
+      </li>
+    </ul>
+  </nav>
+  <div id="infoDisplay"></div>
+</body>
+</html>
